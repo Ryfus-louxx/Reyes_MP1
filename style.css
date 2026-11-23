@@ -53,7 +53,7 @@ h3{
   top: -40px;
 }
 
-#nobackground{
+.nobackground{
   background-color: transparent;
 }
 
