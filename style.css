@@ -1,0 +1,72 @@
+html{
+  background-color:rgb(160, 207, 255);
+}  
+header{
+  background-color: aliceblue;
+}
+#active{
+  background-color:rgb(8, 118, 228);
+  color: white;
+}
+nav{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(106, 181, 255);
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 5px;
+  padding-bottom: 0;
+  padding-top: 0;
+  gap: 30px;
+}
+nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  background-color: lightcyan;
+}
+
+main section {
+  width: 55%;
+  margin-top: 30px;
+  position: relative;
+}
+
+main#nopattern section, table {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+
+section {
+  background-color: aliceblue;
+}
+
+h3{
+  position: absolute;
+  top: -40px;
+}
+
+#nobackground{
+  background-color: transparent;
+}
+
+#homepage section:nth-child(odd) {
+  margin-left: auto;
+}
+#homepage section:nth-child(even) {
+  margin-right: auto;
+}
+
+#zigzags section:nth-child(odd){
+  margin-right: auto;
+}
+#zigzags section:nth-child(even){
+  margin-left: auto;
+}
